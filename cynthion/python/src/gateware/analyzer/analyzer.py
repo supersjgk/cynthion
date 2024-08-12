@@ -14,7 +14,7 @@ from enum              import IntEnum
 from luna.gateware.stream import StreamInterface
 from luna.gateware.test   import LunaGatewareTestCase, usb_domain_test_case
 
-from .fifo import Stream16to8, StreamFIFO, AsyncFIFOReadReset
+from fifo import Stream16to8, StreamFIFO, AsyncFIFOReadReset
 
 
 class USBAnalyzer(Elaboratable):

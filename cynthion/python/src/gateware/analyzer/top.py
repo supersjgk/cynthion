@@ -40,8 +40,8 @@ from apollo_fpga.gateware.advertiser     import ApolloAdvertiser, ApolloAdvertis
 from usb_protocol.emitters.descriptors.standard import get_string_descriptor
 from usb_protocol.types.descriptors.microsoft10 import RegistryTypes
 
-from .analyzer                           import USBAnalyzer
-from .fifo                               import Stream16to8, StreamFIFO, AsyncFIFOReadReset, HyperRAMPacketFIFO
+from analyzer                           import USBAnalyzer
+from fifo                               import Stream16to8, StreamFIFO, AsyncFIFOReadReset, HyperRAMPacketFIFO
 
 import cynthion
 

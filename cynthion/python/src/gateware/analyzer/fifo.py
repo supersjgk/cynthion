@@ -56,7 +56,7 @@ class HyperRAMPacketFIFO(Elaboratable):
         m.submodules   += [psram_phy, psram]
 
         # HyperRAM status
-        depth         = 2 ** 22
+        depth         = 2 ** 23
         write_address = Signal(range(depth))
         read_address  = Signal(range(depth))
         word_count    = Signal(range(depth + 1))
